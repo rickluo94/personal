@@ -1,3 +1,4 @@
+import rickImg from "./assets/IMG_0552.png";
 import "./App.css";
 
 function App() {
@@ -5,19 +6,23 @@ function App() {
     <div className="App">
       <section className={"page-section radius-large"}>
         <div>
-          <a href={"index"} className={"logo-button text-accent"}>
+          <a
+            target={"_blank"}
+            href={"https://petban-6992c.web.app/"}
+            className={"logo-button text-accent"}
+          >
             Pet伴
           </a>
         </div>
         <div className={"container-l"}>
           <div className={"intro-text"}>
-            <h1 className={"fs-700"}>
+            <h1 className={"fs-700 an-h1"}>
               學無止境{"  "}朝夢想邁進
               <br />
               你好我是{"  "}
               <span className={"ff-sans-cond text-accent"}>羅亘佑！</span>
             </h1>
-            <p className={"intro-p"}>
+            <p className={"intro-p an-intro-p"}>
               大學畢業專題獲得全系第二,同年以相同專題申請通過科技部大專學生研究計畫,
               兵役前任職於成大創新數位內容研究中心,擔任產品開發測試人員,
               出社會後第一份工作是電競直播人員,完成電競夢之後,
@@ -45,6 +50,9 @@ function App() {
             <a className={"button w-button"} href={"index"}>
               聯絡方式
             </a>
+          </div>
+          <div className={"img-w"}>
+            <img className={"rick-img"} src={rickImg} alt={"rick"} />
           </div>
         </div>
       </section>
