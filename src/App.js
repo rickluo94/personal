@@ -44,10 +44,18 @@ function App() {
                 <div>WPF</div>
               </div>
             </div>
-            <a className={"button w-button"} href={"index"}>
+            <a
+              target={"_blank"}
+              className={"button w-button"}
+              href={"https://petban-6992c.web.app/about"}
+            >
               關於工作室
             </a>
-            <a className={"button w-button"} href={"index"}>
+            <a
+              target={"_blank"}
+              className={"button w-button"}
+              href={"https://www.facebook.com/PetBan.Studio"}
+            >
               聯絡方式
             </a>
           </div>
