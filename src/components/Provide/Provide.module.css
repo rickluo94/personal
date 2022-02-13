@@ -1,0 +1,60 @@
+.pageSection{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background: transparent;
+}
+
+.pageSection,
+.radiusLarge{
+    min-height: 110vh;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    border-radius: 3.75rem;
+}
+
+.containerL {
+    position: relative;
+    max-width: 81.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ulCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.liCard {
+    display: flex;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 3.75rem;
+    color: white;
+    background: hsl(20, 10%, 60%);
+}
+
+.liCard:first-of-type + .liCard{
+
+    color: black;
+    background: hsla(20, 10%, 60%,.1);
+}
+
+.introText {
+    position: relative;
+    z-index: 2;
+    width: 70%;
+    max-width: 52.8rem;
+    margin-bottom: 16rem;
+    padding-top: 5rem;
+}
+
+.introP {
+    font-size: var(--fs-400);
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
