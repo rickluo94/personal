@@ -3,7 +3,7 @@
     margin-left: 1rem;
     padding-right: 2rem;
     padding-left: 2rem;
-    background: transparent;
+    background: #ffffff;
 }
 
 .pageSection,
@@ -14,9 +14,17 @@
     border-radius: 3.75rem;
 }
 
+.subject{
+    padding-left: 2rem;
+    margin-top:20px;
+    margin-bottom: 2rem;
+    color: #0c0e18;
+    font-size: var(--fs-700);
+}
+
 .containerL {
     position: relative;
-    max-width: 81.5rem;
+    max-width: 91.5rem;
     margin-right: auto;
     margin-left: auto;
 }
@@ -25,23 +33,42 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    padding-left: 0px;
 }
 
 .liCard {
-    display: flex;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
     margin: 1rem;
     padding: 2rem;
-    border-radius: 3.75rem;
-    color: white;
-    background: hsl(20, 10%, 60%);
+    border-radius: 1.75rem;
+    color: #0c0e18;
+    background: hsl(var(--clr-dark)/.3);
+}
+
+.liCard p{
+    text-align: left;
+    padding-top: 1.75rem;
+}
+.liCard ul{
+    text-align: left;
+    padding-bottom: 1.75rem;
+}
+
+.liCard p:first-of-type + p{
+    font-size: 1.75rem;
+}
+
+.liCard p:nth-child(3){
+    font-size: 1rem;
+    padding-top: 0;
+    border-bottom: 2px solid hsla(0,0%,80%,.6);
 }
 
 .liCard:first-of-type + .liCard{
-
-    color: black;
-    background: hsla(20, 10%, 60%,.1);
+    color: #ffffff;
+    background: hsl(var(--clr-dark)/.8);
 }
 
 .introText {
