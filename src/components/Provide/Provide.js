@@ -11,9 +11,9 @@ const Provide = () => {
             <p>NT$ 800 </p>
             <p>起/頁</p>
             <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+              <li>HTML + CSS</li>
+              <li>Tailwind</li>
+              <li>Bootstrap</li>
             </ul>
             <a
               target={"_blank"}
@@ -29,9 +29,9 @@ const Provide = () => {
             <p>NT$ 2000</p>
             <p>起</p>
             <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+              <li>Restful API</li>
+              <li>ASP.NET</li>
+              <li>PHP Laravel</li>
             </ul>
             <a
               target={"_blank"}
@@ -43,13 +43,13 @@ const Provide = () => {
             </a>
           </li>
           <li className={classes.liCard}>
-            <p>RESTful API 介接</p>
+            <p>API 介接</p>
             <p>NT$ 1000 </p>
             <p>起</p>
             <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+              <li>React</li>
+              <li>ASP.NET 、 WPF</li>
+              <li>Laravel</li>
             </ul>
             <a
               target={"_blank"}
