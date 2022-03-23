@@ -1,14 +1,20 @@
 import classes from "./Provide.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Provide = () => {
+  AOS.init({
+    duration: 2200,
+  });
+
   return (
     <div className={classes.pageSection}>
       <div className={classes.containerL}>
         <div className={classes.subject}>提供服務</div>
         <ul className={classes.ulCard}>
-          <li className={classes.liCard}>
+          <li className={classes.liCard} data-aos="fade-up-right">
             <p>RWD 網站切版</p>
-            <p>NT$ 800 </p>
+            <p>NT$ 300 </p>
             <p>起/頁</p>
             <ul>
               <li>HTML + CSS</li>
@@ -24,9 +30,9 @@ const Provide = () => {
               馬上詢價
             </a>
           </li>
-          <li className={classes.liCard}>
+          <li className={classes.liCard} data-aos="fade-up">
             <p>RESTful API 設計</p>
-            <p>NT$ 2000</p>
+            <p>NT$ 1500</p>
             <p>起</p>
             <ul>
               <li>Restful API</li>
@@ -42,9 +48,9 @@ const Provide = () => {
               馬上詢價
             </a>
           </li>
-          <li className={classes.liCard}>
+          <li className={classes.liCard} data-aos="fade-up-left">
             <p>API 介接</p>
-            <p>NT$ 1000 </p>
+            <p>NT$ 1500 </p>
             <p>起</p>
             <ul>
               <li>React</li>

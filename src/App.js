@@ -1,6 +1,7 @@
 import * as React from "react";
 import rickImg from "./assets/IMG_0552.png";
 import Provide from "./components/Provide/Provide";
+import Experience from "./components/Experience/Experience";
 import "./App.css";
 
 function App() {
@@ -79,6 +80,7 @@ function App() {
         </div>
       </div>
       <Provide />
+      <Experience />
     </div>
   );
 }
