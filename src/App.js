@@ -3,6 +3,7 @@ import rickImg from "./assets/IMG_0552.png";
 import Provide from "./components/Provide/Provide";
 import Experience from "./components/Experience/Experience";
 import "./App.css";
+import TimeLine from "./components/TimeLine/TimeLine";
 
 function App() {
   return (
@@ -54,6 +55,10 @@ function App() {
               </div>
               <div className={"usp-item"}>
                 <div className={"check-mark text-white"}>✓</div>
+                <div>Kendo UI</div>
+              </div>
+              <div className={"usp-item"}>
+                <div className={"check-mark text-white"}>✓</div>
                 <div>WPF</div>
               </div>
             </div>
@@ -81,6 +86,7 @@ function App() {
       </div>
       <Provide />
       <Experience />
+      <TimeLine />
     </div>
   );
 }
