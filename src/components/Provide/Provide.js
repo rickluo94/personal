@@ -10,16 +10,15 @@ const Provide = () => {
   return (
     <div className={classes.pageSection}>
       <div className={classes.containerL}>
-        <div className={classes.subject}>提供服務</div>
+        <div className={classes.subject}>技術堆疊</div>
         <ul className={classes.ulCard}>
           <li className={classes.liCard} data-aos="fade-up-right">
-            <p>RWD 網站切版</p>
-            <p>NT$ 300 </p>
-            <p>起/頁</p>
+            <p>網站切版</p>
             <ul>
               <li>HTML + CSS</li>
               <li>Tailwind</li>
               <li>Bootstrap</li>
+              <li>Kendo UI</li>
             </ul>
             <a
               target={"_blank"}
@@ -31,13 +30,10 @@ const Provide = () => {
             </a>
           </li>
           <li className={classes.liCard} data-aos="fade-up">
-            <p>RESTful API 設計</p>
-            <p>NT$ 1500</p>
-            <p>起</p>
+            <p>Front-End 前端</p>
             <ul>
-              <li>Restful API</li>
-              <li>ASP.NET</li>
-              <li>PHP Laravel</li>
+              <li>React</li>
+              <li>ASP.NET Core Blazor</li>
             </ul>
             <a
               target={"_blank"}
@@ -49,13 +45,14 @@ const Provide = () => {
             </a>
           </li>
           <li className={classes.liCard} data-aos="fade-up-left">
-            <p>API 介接</p>
-            <p>NT$ 1500 </p>
-            <p>起</p>
+            <p>Back-End 後端</p>
             <ul>
-              <li>React</li>
-              <li>ASP.NET 、 WPF</li>
-              <li>Laravel</li>
+              <li>ASP.NET MVC</li>
+              <li>ASP.NET Core MVC</li>
+              <li>Entity Framework</li>
+              <li>Prisma</li>
+              <li>MySql</li>
+              <li>MS SQL</li>
             </ul>
             <a
               target={"_blank"}

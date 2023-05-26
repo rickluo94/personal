@@ -30,6 +30,18 @@
     margin-left: auto;
 }
 
+.container {
+  --color: rgba(30, 30, 30);
+  --bgColor: rgba(245, 245, 245);
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  color: var(--color);
+  background: hsl( var(--clr-dark) /.1);
+}
+
 .timeLine_ul {
   --col-gap: 2rem;
   --row-gap: 2rem;
@@ -61,6 +73,7 @@
 
 /* card */
 .timeLine_ul li {
+  z-index:0;
   grid-column: 2;
   --inlineP: 1.5rem;
   margin-inline: var(--inlineP);
@@ -149,6 +162,7 @@
   filter: blur(4px);
   transform: translate(-50%, 50%);
 }
+
 .timeLine_ul li .title::before {
   bottom: calc(100% + 0.125rem);
 }

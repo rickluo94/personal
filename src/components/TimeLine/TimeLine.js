@@ -1,10 +1,9 @@
 import classes from "../TimeLine/TimeLine.module.css";
 
 const TimeLine = () => {
-  return (<div className={classes.pageSection}>
-    <div className={classes.containerL}>
-      {/* Experience Timeline */}
-      <div className={classes.subject}>工作經歷</div>
+  return (
+    <div className={classes.container}>
+      <div className={classes.subject}>經歷旅程</div>
       <ul className={classes.timeLine_ul}>
         <li style={{ "--accent-color": "#41516C" }}>
           <div className={classes.date}>2014/7</div>
@@ -19,8 +18,7 @@ const TimeLine = () => {
           <div className={classes.title}>產品開發測試人員</div>
           <div className={classes.descr}>
             成大創新數位內容研究中心<br />
-            technology-stack:<br />
-            C#
+            technology-stack:C#
           </div>
         </li>
         <li style={{ "--accent-color": "#E24A68" }}>
@@ -29,8 +27,7 @@ const TimeLine = () => {
           <div className={classes.descr}>
             嘉資國際有限公司<br />
             針對公司內部需求設計軟體，以及各部門監控維護系統正常運作，排除公司內部電腦使用端各類問題。<br />
-            technology-stack:<br />
-            C++/CLI
+            technology-stack:C++/CLI
           </div>
         </li>
         <li style={{ "--accent-color": "#1B5F8C" }}>
@@ -49,8 +46,7 @@ const TimeLine = () => {
             德國知名亞洲區單車零配件廠-WMS客製化系統
             台灣知名CNC切削工具機製造廠-WMS客製化系統
             智能管理籃球櫃
-            technology-stack:<br />
-            ASP.NET 、WPF、MySql
+            technology-stack:ASP.NET 、WPF、MySql
           </div>
         </li>
         <li style={{ "--accent-color": "#4CADAD" }}>
@@ -61,8 +57,7 @@ const TimeLine = () => {
             1.公司既有管理系統網站維護修改<br />
             2.台灣知名食品公司代送系統<br />
             3.陸軍整備中心系統修改及維護<br />
-            technology-stack:<br />
-            ASP.NET MVC、BootstrapVue、jquery、Vue.js、SQL Server、Oracle 10g
+            technology-stack:ASP.NET MVC、BootstrapVue、jquery、Vue.js、SQL Server、Oracle 10g
           </div>
         </li>
         <li style={{ "--accent-color": "#41516C" }}>
@@ -72,8 +67,7 @@ const TimeLine = () => {
             自僱接案(super8娛樂城)<br />
             修改維護遊戲網站框架<br />
             切版介接後端API<br />
-            technology-stack:<br />
-            React 、react-router-dom、redux、redux-observable
+            technology-stack:React 、react-router-dom、redux、redux-observable
           </div>
         </li>
         <li style={{ "--accent-color": "#FBCA3E" }}>
@@ -83,7 +77,6 @@ const TimeLine = () => {
             自僱接案(幾合股份有限公司)<br />
             中央研究院民族學研究所博物館<br />
             藏品查詢系統後端開發及介接修改RWD畫面<br />
-
             1. 篩選功能包含3項<br />
             2. 輸入式查詢9項<br />
             3. 下拉選單列查詢共8項<br />
@@ -92,9 +85,7 @@ const TimeLine = () => {
             6. 列出藏品內容可顯示的項目<br />
             7. 圖片套用燈箱效果(Fancybox)<br />
             8. 搜尋頁、列表頁、內容頁畫面調整切版<br />
-
-            technology-stack:<br />
-            ASP.NET MVC、ASP.NET Web API 、SQL Server、Bootstrap、jquery
+            technology-stack:ASP.NET MVC、ASP.NET Web API 、SQL Server、Bootstrap、jquery
           </div>
         </li>
         <li style={{ "--accent-color": "#E24A68" }}>
@@ -110,9 +101,7 @@ const TimeLine = () => {
             2. Button按鈕效果 共2項<br />
             3. 副標題項目入場效果 共7項<br />
             4. LOGO入場效果 共4項<br />
-
-            technology-stack:<br />
-            html css postcss tailwindcss
+            technology-stack:html css postcss tailwindcss
           </div>
         </li>
         <li style={{ "--accent-color": "#1B5F8C" }}>
@@ -127,21 +116,25 @@ const TimeLine = () => {
             4. 使用原碼檢測Fortify<br />
             5. 修正資安漏洞<br />
             6. 修改網頁符合AA無障礙<br />
-
             專案名稱：<br />
             教育部國民及學前教育署網站<br />
             客家委員會獎補助系統網站<br />
             民族學研究所博物館網站<br />
             新竹縣政府文化局網站<br />
             新竹縣縣史館「記憶拼圖-無牆博物館」改版<br />
-
-            technology-stack:<br />
-            ASP.NET MVC、ASP.NET Core、SQL Server、Bootstrap、jquery、Kendo UI
+            technology-stack:ASP.NET MVC、ASP.NET Core、SQL Server、Bootstrap、jquery、Kendo UI
+          </div>
+        </li>
+        <li style={{ "--accent-color": "#4CADAD" }}>
+          <div className={classes.date}>2023/6</div>
+          <div className={classes.title}>To be continued</div>
+          <div className={classes.descr}>
+            Keep going keep growing
           </div>
         </li>
       </ul>
     </div>
-  </div >);
+  );
 };
 
 export default TimeLine;
