@@ -3,7 +3,7 @@ import classes from "../TimeLine/TimeLine.module.css";
 const TimeLine = () => {
   return (
     <div className={classes.container}>
-      <div className={classes.subject}>經歷旅程</div>
+      <div className={classes.subject}>Experience</div>
       <ul className={classes.timeLine_ul}>
         <li style={{ "--accent-color": "#41516C" }}>
           <div className={classes.date}>2014/7</div>

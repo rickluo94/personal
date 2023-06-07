@@ -28,9 +28,9 @@
 .intro-text {
   position: relative;
   z-index: 2;
-  width: 70%;
+  width: 100%;
   max-width: 52.8rem;
-  margin-bottom: 16rem;
+  margin-bottom: 8rem;
   padding-top: 5rem;
 }
 
@@ -38,8 +38,14 @@
   margin-top:20px;
   margin-bottom: 2rem;
 }
+
 .an-h1{
+  position: relative;
+  z-index: 2;
   opacity: 0;
+  border-radius: 1rem;
+  backdrop-filter: blur(0.5rem);
+  text-shadow: hsl(var(--clr-white)) 1px 0 10px;
   animation: 500ms ease-out 250ms 1 slideInFromRight-5 forwards;
 }
 
@@ -61,6 +67,10 @@
   margin-bottom: 1.5rem;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.usp-wrapper-r{
+  justify-content: left;
 }
 
 .usp-item{
@@ -158,10 +168,11 @@
   bottom: auto;
   z-index: 1;
   display: block;
-  width: 50%;
+  width: 100%;
 }
 
 .rick-img{
+  visibility: visible;
   display: block;
   width: 100%;
   max-width: 100%;
@@ -198,3 +209,26 @@
     opacity: 1;
   }
 }
+
+@media (min-width: 40rem){
+  .usp-wrapper-r{
+    justify-content: right;
+  }
+
+  .intro-text {
+    margin-bottom: 16rem;
+  }
+
+  .an-h1{
+    backdrop-filter: none;
+  }
+
+  .intro-text {
+    width: 70%;
+  }
+
+  .img-w{
+    width: 50%;
+  }
+}
+

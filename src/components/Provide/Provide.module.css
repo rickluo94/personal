@@ -38,7 +38,7 @@
 
 .liCard {
     display: inline-block;
-    width: 30%;
+    width: 100%;
     text-align: center;
     margin: 1rem;
     padding: 2rem;
@@ -85,4 +85,10 @@
     font-size: var(--fs-400);
     letter-spacing: 3px;
     margin-bottom: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .liCard {
+      width: 30%;
+  }
 }

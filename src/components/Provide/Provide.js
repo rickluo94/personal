@@ -10,7 +10,7 @@ const Provide = () => {
   return (
     <div className={classes.pageSection}>
       <div className={classes.containerL}>
-        <div className={classes.subject}>技術堆疊</div>
+        <div className={classes.subject}>Tech Stack</div>
         <ul className={classes.ulCard}>
           <li className={classes.liCard} data-aos="fade-up-right">
             <p>網站切版</p>
@@ -20,14 +20,6 @@ const Provide = () => {
               <li>Bootstrap</li>
               <li>Kendo UI</li>
             </ul>
-            <a
-              target={"_blank"}
-              rel={"noreferrer"}
-              className={"button w-button"}
-              href={"https://www.facebook.com/PetBan.Studio"}
-            >
-              馬上詢價
-            </a>
           </li>
           <li className={classes.liCard} data-aos="fade-up">
             <p>Front-End 前端</p>
@@ -35,14 +27,6 @@ const Provide = () => {
               <li>React</li>
               <li>ASP.NET Core Blazor</li>
             </ul>
-            <a
-              target={"_blank"}
-              rel={"noreferrer"}
-              className={"button w-button"}
-              href={"https://www.facebook.com/PetBan.Studio"}
-            >
-              馬上詢價
-            </a>
           </li>
           <li className={classes.liCard} data-aos="fade-up-left">
             <p>Back-End 後端</p>
@@ -54,14 +38,6 @@ const Provide = () => {
               <li>MySql</li>
               <li>MS SQL</li>
             </ul>
-            <a
-              target={"_blank"}
-              rel={"noreferrer"}
-              className={"button w-button"}
-              href={"https://www.facebook.com/PetBan.Studio"}
-            >
-              馬上詢價
-            </a>
           </li>
         </ul>
       </div>

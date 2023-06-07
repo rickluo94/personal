@@ -62,31 +62,33 @@ function App() {
                 <div>WPF</div>
               </div>
             </div>
-            <a
-              target={"_blank"}
-              rel={"noreferrer"}
-              className={"button w-button"}
-              href={"https://petban-6992c.web.app/about"}
-            >
-              關於工作室
-            </a>
-            <a
-              target={"_blank"}
-              rel={"noreferrer"}
-              className={"button w-button"}
-              href={"https://www.facebook.com/PetBan.Studio"}
-            >
-              聯絡方式
-            </a>
           </div>
           <div className={"img-w"}>
             <img className={"rick-img"} src={rickImg} alt={"rick"} />
+          </div>
+          <div className={"usp-wrapper usp-wrapper-r"}>
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              className={"button w-button usp-item"}
+              href={"https://www.linkedin.com/in/rick-lo/"}
+            >
+              Linkedin
+            </a>
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              className={"button w-button usp-item"}
+              href={"https://github.com/rickluo94"}
+            >
+              Github
+            </a>
           </div>
         </div>
       </div>
       <Provide />
       <TimeLine />
-    </div>
+    </div >
   );
 }
 
