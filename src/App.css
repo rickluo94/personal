@@ -45,7 +45,6 @@
   opacity: 0;
   border-radius: 1rem;
   backdrop-filter: blur(0.5rem);
-  text-shadow: hsl(var(--clr-white)) 1px 0 10px;
   animation: 500ms ease-out 250ms 1 slideInFromRight-5 forwards;
 }
 
