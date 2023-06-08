@@ -6,6 +6,11 @@ import "./App.css";
 import TimeLine from "./components/TimeLine/TimeLine";
 
 function App() {
+
+  const onClickHandler = () => {
+    window.location.hash = "provide";
+  };
+
   return (
     <div className="App">
       <div className={"page-section radius-large"}>
@@ -83,6 +88,11 @@ function App() {
             >
               Github
             </a>
+          </div>
+          <div className={"arrow"} onClick={onClickHandler}>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </div>
       </div>

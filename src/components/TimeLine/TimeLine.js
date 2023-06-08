@@ -2,7 +2,7 @@ import classes from "../TimeLine/TimeLine.module.css";
 
 const TimeLine = () => {
   return (
-    <div className={classes.container}>
+    <div id="timeline" className={classes.container}>
       <div className={classes.subject}>Experience</div>
       <ul className={classes.timeLine_ul}>
         <li style={{ "--accent-color": "#41516C" }}>

@@ -6,9 +6,12 @@ const Provide = () => {
   AOS.init({
     duration: 2200,
   });
+  const onClickHandler = () => {
+    window.location.hash = "timeline";
+  };
 
   return (
-    <div className={classes.pageSection}>
+    <div id="provide" className={classes.pageSection}>
       <div className={classes.containerL}>
         <div className={classes.subject}>Tech Stack</div>
         <ul className={classes.ulCard}>
@@ -40,6 +43,11 @@ const Provide = () => {
             </ul>
           </li>
         </ul>
+        <div className={classes.arrow} onClick={onClickHandler}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </div>
   );
