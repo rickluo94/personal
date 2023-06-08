@@ -13,7 +13,7 @@ const TimeLine = () => {
           </div>
         </li>
         <li style={{ "--accent-color": "#1B5F8C" }}>
-          <div className={classes.date}>2022/6</div>
+          <div className={classes.date}>2022/5</div>
           <div className={classes.title}>全端工程師</div>
           <div className={classes.descr}>
             幾合股份有限公司<br />
