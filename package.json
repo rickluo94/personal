@@ -18,10 +18,11 @@
   "scripts": {
     "start": "PORT=3006 react-scripts start",
     "start-win": "set PORT=3006 && react-scripts start",
-    "build": "PORT=3006 react-scripts build",
+    "build": "react-scripts build",
     "build-win": "set PORT=3006 && react-scripts build",
     "test": "PORT=3006 react-scripts test",
     "eject": "PORT=3006 react-scripts eject",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
