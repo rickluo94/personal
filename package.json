@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rickluo94.github.io/personal",
   "name": "personal",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +9,7 @@
     "@testing-library/user-event": "^13.2.1",
     "aos": "^2.3.4",
     "firebase-tools": "^12.3.1",
+    "gh-pages": "^6.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -19,7 +21,8 @@
     "build": "PORT=3006 react-scripts build",
     "build-win": "set PORT=3006 && react-scripts build",
     "test": "PORT=3006 react-scripts test",
-    "eject": "PORT=3006 react-scripts eject"
+    "eject": "PORT=3006 react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
