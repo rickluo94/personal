@@ -18,10 +18,10 @@ function App() {
           <a
             target={"_blank"}
             rel={"noreferrer"}
-            href={"https://petban-6992c.web.app/"}
+            href={"https://petban.sf39.app/"}
             className={"logo-button text-accent"}
           >
-            Pet伴
+            Rick CV
           </a>
         </div>
         <div className={"container-l"}>
@@ -69,7 +69,7 @@ function App() {
             </div>
           </div>
           <div className={"img-w"}>
-            <img className={"rick-img"} src={rickImg} alt={"rick"} />
+            <img className={"rick-img"} src={rickImg} alt={"rick_img"} />
           </div>
           <div className={"usp-wrapper usp-wrapper-r"}>
             <a

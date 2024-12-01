@@ -43,6 +43,27 @@
   background: hsl( var(--clr-dark) /.1);
 }
 
+.img_box{
+  position: relative;
+}
+
+.rick_img{
+  visibility: visible;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  transform-style: preserve-3d;
+  animation: 800ms ease-out 0s 1 rotateIn;
+}
+
+.img_sub{
+  color: hsl(var(--clr-light));
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(55, 52, 52, 0.8);
+}
+
 .timeLine_ul {
   --col-gap: 2rem;
   --row-gap: 2rem;
