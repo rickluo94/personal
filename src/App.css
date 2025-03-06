@@ -31,7 +31,7 @@
   width: 100%;
   max-width: 52.8rem;
   margin-bottom: 8rem;
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 
 .intro-text h1{
@@ -49,7 +49,8 @@
 }
 
 .intro-p {
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
+  line-height: var(--fs-350);
   letter-spacing: 3px;
   margin-bottom: 1rem;
 }
@@ -257,7 +258,7 @@
   }
 
   .intro-text {
-    margin-bottom: 16rem;
+    margin-bottom: 6rem;
   }
 
   .an-h1{
